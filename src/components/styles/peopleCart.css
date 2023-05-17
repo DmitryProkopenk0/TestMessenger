@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color: black;
+    --secondary-color:white;
+    --tertiary-color:black;
+}
+.dark-mode{
+    --primary-color: white;
+    --secondary-color:#252329;
+    --tertiary-color:black;
+}
+
+.people1-container{
+    cursor: pointer;
+    margin: 9px 0;
+    display: flex;
+    min-width: 200px;
+    height: 70px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.avatar-img{
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.content-chat-people{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.name-people{
+    letter-spacing: 1px;
+    color: white;
+}
+
+.descr-people{
+    color: silver;
+}
